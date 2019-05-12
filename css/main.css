@@ -466,7 +466,7 @@ footer {
 
 .hero {
   background-color: #61c4d9;
-  background-image: url("./../../../img/hero/pattern.png");
+  background-image: url("../img/hero/pattern.png");
   background-repeat: no-repeat;
   background-position: right bottom; }
 
@@ -619,7 +619,7 @@ footer {
   z-index: 1; }
 
 .why {
-  background-image: url("../../../img/why/pattern.png");
+  background-image: url("../img/why/pattern.png");
   background-repeat: no-repeat;
   background-position: left 66%; }
   .why::after {
@@ -628,7 +628,7 @@ footer {
     position: absolute;
     width: 161px;
     height: 315px;
-    background-image: url(../../../img/why/raspberries.png);
+    background-image: url("../img/why/raspberries.png");
     left: 0;
     bottom: -100px; }
 
@@ -715,7 +715,7 @@ footer {
   color: #666; }
 
 .reviews {
-  background-image: url("../../../img/reviews/Strawberry.png");
+  background-image: url("../img/reviews/Strawberry.png");
   background-position: right top;
   background-repeat: no-repeat; }
   .reviews::after {
@@ -726,7 +726,7 @@ footer {
     height: 422px;
     left: 0;
     bottom: -211px;
-    background: url("../../../img/reviews/pattern.png"); }
+    background: url("../img/reviews/pattern.png"); }
 
 .reviews__container {
   -webkit-box-align: center;
