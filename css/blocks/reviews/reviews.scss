@@ -1,0 +1,26 @@
+.reviews {
+    background-image: url('../../../img/reviews/Strawberry.png');
+    background-position: right top;
+	background-repeat: no-repeat;
+	
+
+	&::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 134px;
+	height: 422px;
+	left: 0;
+	bottom: -211px;
+	background: url('../../../img/reviews/pattern.png');
+	}
+
+
+
+
+}
+
+
+.reviews__container {
+    align-items: center;
+}

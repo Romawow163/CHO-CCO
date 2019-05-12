@@ -1,0 +1,22 @@
+.user__avatar {
+    position: relative;
+
+    &:hover::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 92px;
+        height: 92px;
+        left: -7px;
+        top: -7px;
+        border: 8px solid #0f5a47;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+
+    }
+
+
+}

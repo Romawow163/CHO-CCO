@@ -1,0 +1,14 @@
+.why__list {
+	display: flex;
+	justify-content: center;
+	padding-top: 57px;
+}
+
+.why__item {
+	flex: 1;
+	margin-right: 73px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

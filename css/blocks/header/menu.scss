@@ -1,0 +1,19 @@
+.menu__list {
+	display: flex;
+	align-items: center;
+}
+
+.menu__items {
+	margin-right: 18px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.menu__link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: normal;
+}

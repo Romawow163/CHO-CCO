@@ -1,0 +1,27 @@
+.hero__features {
+	margin-top: auto;
+	padding-top: 48px;
+}
+
+.hero__features-list {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.hero__features-item {
+	display: flex;
+	align-items: flex-start;
+	width: 13%;
+	margin-right: 48px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.hero__features-text {
+	font-size: 16px;
+	color: $white;
+	font-weight: normal;
+	padding-left: 7px;
+}

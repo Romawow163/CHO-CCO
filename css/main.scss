@@ -1,0 +1,46 @@
+//colors 
+$light-grey:#f8faf9;
+$green: #0f5a47;
+$blue: #61c4d9;
+$white: #fff;
+$black: #0d0d0d;
+
+//normalize 
+@import "base/normalize.scss";
+
+//setups
+@import "base/fonts.scss";
+@import "base/layout.scss";
+
+
+
+//blocks
+
+//hero
+@import "blocks//hero/hero.scss";
+@import "blocks/header/header.scss";
+@import "blocks/header/menu.scss";
+@import "blocks/header/call.scss";
+@import "blocks/hero/hero__content.scss";
+@import "blocks/hero/hero__desc.scss";
+@import "blocks/btn.scss";
+@import "blocks/hero/hero__features.scss";
+@import "blocks/section__title.scss";
+@import "blocks/hero/candy.scss";
+@import "blocks/hero/leaves.scss";
+@import "blocks/hero/berries.scss";
+
+//why
+@import "blocks/why/why.scss";
+@import "blocks/why/why__chocco.scss";
+@import "blocks/why/why__list.scss";
+@import "blocks/why/why__features-pic.scss";
+@import "blocks/why/why__features-desc.scss";
+
+//reviews
+@import "blocks/reviews/reviews.scss";
+@import "blocks/reviews/reviews__desc.scss";
+@import "blocks/reviews/reviews__avatar.scss";
+@import "blocks/reviews/reviews__comment.scss";
+@import "blocks/reviews/reviews__user.scss";
+@import "blocks/reviews/user__avatar.scss";

@@ -1,0 +1,26 @@
+.reviews__desc {
+    background-color: $light-grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url('../../../img/reviews/berries.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-color: white;
+        left: 46%;
+        top: -25px;
+        width: 90px;
+        height: 50px;
+        border-radius: 20%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 20%;
+        -ms-border-radius: 20%;
+        -o-border-radius: 20%;
+    }
+
+}

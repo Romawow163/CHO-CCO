@@ -1,0 +1,10 @@
+.section__title {
+    @include Asans(bold);
+    line-height: 1;
+    text-transform: uppercase;
+
+    &.reviews__title {
+        font-size: 48px;
+        margin: 138px 0 59px 0;  
+    }
+}

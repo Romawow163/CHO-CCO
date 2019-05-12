@@ -1,0 +1,17 @@
+.why {
+    background-image: url('../../../img/why/pattern.png');
+    background-repeat: no-repeat;
+    background-position: left 66%;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 161px;
+        height: 315px;
+        background-image: url(../../../img/why/raspberries.png);
+        left: 0;
+        bottom: -100px;
+    }
+}
+
