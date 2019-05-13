@@ -454,7 +454,8 @@ a {
   display: inline-block; }
 
 img {
-  display: inline-block; }
+  display: inline-block;
+  max-width: 100%; }
 
 footer {
   position: relative;
