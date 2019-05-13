@@ -743,7 +743,7 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  background-image: url("../../../img/reviews/berries.png");
+  background-image: url("../img/reviews/berries.png");
   background-repeat: no-repeat;
   background-position: right top; }
   .reviews__desc::after {
